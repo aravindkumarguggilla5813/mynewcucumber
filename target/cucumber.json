@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-05-28T04:40:06.173Z",
+        "line": 3,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17531207500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "parameter.user_is_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8197570200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigate to LogIn Page",
+            "match": {
+              "location": "parameter.user_Navigate_to_LogIn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1979451100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters UserName and Password",
+            "match": {
+              "location": "parameter.user_enters_UserName_and_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 420600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Message displayed Login Successfully",
+            "match": {
+              "location": "parameter.message_displayed_Login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-05-28T04:40:33.891Z",
+        "line": 9,
+        "name": "Successful LogOut",
+        "description": "",
+        "id": "login-action;successful-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 146100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User LogOut from the Application",
+            "match": {
+              "location": "parameter.user_LogOut_from_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 248400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Message displayed LogOut Successfully",
+            "match": {
+              "location": "parameter.message_displayed_LogOut_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "file:Feature/parameter.feature",
+    "tags": []
+  }
+]
